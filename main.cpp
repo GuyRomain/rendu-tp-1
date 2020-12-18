@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
     myWindow win;
     win.show();
 
+    std::cout<<"it is a test"<<std::endl;
+
     //Start Qt Application
     return app.exec();
 }
